@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spring Motion</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="sliderContainer">
+        <span>Drag: <span id="drag">.7</span></span>
+        <input type="range" min="0" max="100" value="70" class="slider" id="dragSlider">
+        <span>Spring Constant: <span id="springConstant">.1</span></span>
+        <input type="range" min="0" max="100" value="10" class="slider" id="SpringConstantSlider">
+        <span>Trail: <span id="trail">.5</span></span>
+        <input type="range" min="0" max="100" value="50" class="slider" id="trailSlider">
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
