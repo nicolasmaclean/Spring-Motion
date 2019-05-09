@@ -102,7 +102,7 @@ function init() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight - divH-10;
 
-    ball = new Ball(canvas.width/2, canvas.height/2, 100, "0f0");
+    ball = new Ball(canvas.width/2, canvas.height/2, canvas.height/10, "0f0");
 }
 
 function animate(){
